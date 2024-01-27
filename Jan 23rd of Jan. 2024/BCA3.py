@@ -7,3 +7,4 @@
 #     print("This is even")
 # else:
 #     print("This is odd")
+a=int(input("upa age"))
