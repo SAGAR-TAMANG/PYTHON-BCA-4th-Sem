@@ -6,8 +6,10 @@ def  result(a):
         return"odd"
 
 def main():
-     User=int(input("giva a number:"))
-     ans=result(User)   
-     print("the number is",ans)   
+     User=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+     
+     for i in User:
+        ans=result(i)   
+        print("the number is",ans)   
 
 main()
